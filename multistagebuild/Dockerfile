@@ -1,5 +1,5 @@
 # Stage 1: Build Stage
-FROM python:3.9 as builder
+FROM python:3.9 AS builder
 
 # Set the working directory inside the container
 WORKDIR /app
